@@ -282,7 +282,7 @@ const ProductScreen = ({ navigation, route }) => {
     //}
     else if (url.includes('secure.livechatinc.com/customer/action/')) {
       //refWebview?.current?.goBack();
-      return false;
+      return true;
     } else if (url.startsWith('bncmobile://')) {
       // Тут обробіть цей специфічний URL
       console.log('Перехоплений URL:', url);
